@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz fictif</title>
+    <link rel="stylesheet" href="style-quiz.css">
+</head>
+
+<body>
+    <main class="main">
+        <header class="header">
+            <a href="#" class="logo">Quiz</a>
+
+            <nav class="navbar">
+                <a href="#" class="active">Accueil</a>
+                <a href="#">A propos</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
+
+        <div class="container">
+            <section class="quiz-section">
+                <div class="quiz-box">
+
+                    <h1>Quiz</h1>
+
+                    <div class="quiz-header">
+                        <span>Quiz en ligne</span>
+                        <span class="header-score">Score: 0 / 5</span>
+                    </div>
+
+                    <h2 class="question-text">Quel est le plus grand océan du monde ?</h2>
+
+                    <div class="option-list">
+                        <div class="option">
+                            <span>A. Océan Atlantique</span>
+                        </div>
+
+                        <div class="option">
+                            <span>B. Océan Arctique</span>
+                        </div>
+
+                        <div class="option">
+                            <span>C. Océan Pacifique</span>
+                        </div>
+
+                        <div class="option">
+                            <span>D. Océan Indien</span>
+                        </div>
+                    </div>
+                    
+                    <div class="quiz-footer">
+                        <span class="question-total">Question 1 sur 5</span>
+                        <button class="next-btn">Suivant</button>
+                    </div>
+                </div>
+                
+                <div class="result-box">
+                    <h2>Résultat du quiz</h2>
+                    <div class="pourcentage-container">
+                        <div class="circular-progress">
+                            <span class="progress-value">0%</span>
+                        </div>
+
+                        <span class="score-text">Votre score est de 0 sur 5</span>
+                    </div>
+
+                    <div class="buttons">
+                        <button class="tryAgain-btn">Réessayer</button>
+                        <button class="goHome-btn">Retour au menu</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="home">
+                <div class="home-content">
+                    <h1>Quiz en ligne</h1>
+                    <p>Ceci est un site fictif dont l'unique but est de mettre en valeur mes compétences.</p>
+                    <button class="start-btn">Commencer le quiz</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div class="popup-info">
+        <h2>Guide du quiz</h2>
+        <span class="info">1. Ce quiz est composé de 5 questions de culture générale.</span>
+        <span class="info">2. C'est un QCM à choix unique; pour chaque mauvaise réponse, vous pourrez voir la correction.</span>
+        <span class="info">3. Vous n'avez pas de limite de temps.</span>
+        <span class="info">4. À chaque bonne réponse, vous gagnez 1 point; dans le cas contraire, vous n'en gagnez pas.</span>
+        <span class="info">5. À vous de jouer !</span>
+
+        <div class="btn-group">
+            <button class="info-btn exit-btn">Arrêter le quiz</button>
+            <a href="#" class="info-btn continue-btn">Continuer</a>
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
